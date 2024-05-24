@@ -297,6 +297,7 @@ padding: 188px 472px 188px;
     padding-top: 100px;
     padding-left: 156px;
     padding-bottom: 100px;
+    height: 312px;
 }
 
 .logo-span {
@@ -306,7 +307,10 @@ padding: 188px 472px 188px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        margin-bottom: 16px;
 }
+
+
 
 
 
@@ -317,7 +321,7 @@ padding: 188px 472px 188px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:#4d5ae5
+        color:#4d5ae5;
 }
 .logo-text {
     font-weight: 400;
@@ -326,6 +330,7 @@ padding: 188px 472px 188px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         padding-top: 16px;
+        max-width: 264px;
 }
 
 
