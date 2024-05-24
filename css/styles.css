@@ -42,6 +42,7 @@ img {
 .navigat {
     display: flex;
     margin-right: auto;
+    align-items: center;
 }
 
 .link-span {
@@ -52,6 +53,7 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#2e2f42;
+        margin-right: 76px;
 }
 .link {
     font-family: "Raleway", sans-serif;
@@ -71,7 +73,7 @@ img {
 .nav-menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
+    padding: 24px 0;
 }
 .nav-list-adress {
     display: flex;
