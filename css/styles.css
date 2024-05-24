@@ -188,10 +188,13 @@ color: #404bbf
     display: flex;
     padding: 0 18px;
     gap: 24px;
+    
 }
 
 .futures-items {
-    width: calc((100% - 3 * 24px) / 4);
+    margin: 0;
+    padding: 0;
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .fut-subtit {
