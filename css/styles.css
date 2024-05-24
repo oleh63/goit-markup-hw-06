@@ -323,6 +323,7 @@ color: #404bbf
 
 .footer-logo {
     background: #2e2f42;
+    padding: 100px;
 }
 
 .container .footer {
@@ -330,6 +331,11 @@ color: #404bbf
     padding-left: 156px;
     padding-bottom: 100px;
     height: 312px;
+}
+
+.link-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-span {
