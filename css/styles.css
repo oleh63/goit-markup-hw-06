@@ -3,16 +3,19 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
 h1, h2, h3, h4, h5, h6, p {
         margin-top: 0;
         margin-bottom: 0;
 }
+
 ul, ol {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -54,8 +57,8 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#2e2f42;
-        margin-right: 76px;
 }
+
 .link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -64,32 +67,40 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
+
 .navigat .link:hover {
     color:#404bbf
 }
+
 .navigate .link:focus {
     color:#404bbf
 }
+
 .nav-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
+
 .nav-list-adress {
     display: flex;
     gap: 40px;
 }
+
 .nav-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
 }
+
 .nav-class {
     font-style: normal;
 }
+
 .nav-adress {
     font-weight: 400;
         font-size: 16px;
@@ -97,15 +108,19 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 .nav-adress:hover {
     color:#404bbf
 }
+
 .nav-adress:focus {
     color:#404bbf
 }
+
 .nav-link:hover {
 color:#404bbf
 }
+
 .nav-link:focus {
 color: #404bbf
 }
@@ -126,6 +141,7 @@ padding: 188px 472px 188px;
         color: #fff;
         margin-bottom: 48px;
 }
+
 .effective-btm {
     font-weight: 500;
         font-size: 16px;
