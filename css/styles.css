@@ -492,6 +492,9 @@ background-color: #404bbf;
             background-color: #4d5ae5;
             border-radius: 50%;
 }
+.footer-link-icon:hover {
+    background-color: #31d0aa;
+}
 
 
 
