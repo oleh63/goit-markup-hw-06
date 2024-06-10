@@ -649,6 +649,7 @@ color: #404bbf
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 72px 24px 24px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -664,6 +665,7 @@ color: #404bbf
     position: absolute;
     top: 24px;
     right: 24px;
+    padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -671,7 +673,7 @@ color: #404bbf
 
 .btn-close:hover,
 .btn-close:focus {
-    background-color: #4d5ae5;
+    background-color: #404bbf;
     border: none;
 }
 
@@ -690,13 +692,14 @@ color: #404bbf
 }
 
 .modal-text {
+    display: block;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
 }
 
 .modal-form {}
@@ -714,6 +717,7 @@ margin-bottom: 8px;
     padding-left: 38px;
     color: #2E2F42;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -744,6 +748,7 @@ border-color: #4d5ae5;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment {
@@ -755,11 +760,21 @@ border-color: #4d5ae5;
         background-color: transparent;
         outline: transparent;
         resize: none;
+        margin-bottom: 16px;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment:hover,
 .modal-comment:focus {
     border-color: #4d5ae5;
+}
+
+.check-container {
+    margin-bottom: 24px;
 }
 
 .btn-send {
@@ -792,7 +807,6 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 display: flex;
 align-items: center;
-margin-bottom: 24px;
 }
 
 .modal-check-text span {
