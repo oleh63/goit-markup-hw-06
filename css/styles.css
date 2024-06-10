@@ -500,7 +500,9 @@ color: #404bbf
         margin-bottom: 16px;
 }
 
-.footer-wrap {}
+.footer-wrap {
+    margin-right: 80px;
+}
 
 .footer-list {
     display: flex;
@@ -534,6 +536,83 @@ color: #404bbf
 .footer-icon {
     fill: #f4f4fd;
 }
+
+.footer-subs {
+    max-width: 453px;
+        height: 80px;
+}
+
+.footer-subs-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-input-container {
+
+}
+
+.footer-input {
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        background-color: transparent;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        padding: 0 16px;
+        margin-right: 24px;
+        color: #f4f4fd;
+}
+
+.footer-input::placeholder {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+
+.btn-footer {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    padding: 8px 64px 8px 24px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.btn-footer:hover,
+.btn-footer:focus {
+    background-color: #404bbf;
+}
+
+.footer-btn-icon {
+    fill: #fff;
+    position: absolute;
+    top: 8px;
+    right: 24px;
+}
+
+
+
+
 
 .backdrop {
     width: 100%;
@@ -616,7 +695,6 @@ color: #404bbf
 .modal-form {}
 
 .modal-field {
-    height: 58px;
 margin-bottom: 8px;
 }
 
@@ -669,6 +747,12 @@ border-color: #4d5ae5;
         padding: 8px 16px;
         background-color: transparent;
         outline: transparent;
+        resize: none;
+}
+
+.modal-comment:hover,
+.modal-comment:focus {
+    border-color: #4d5ae5;
 }
 
 .btn-send {
@@ -683,13 +767,46 @@ border-color: #4d5ae5;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     border-color: transparent;
     margin: 0 auto;
-
+    cursor: pointer;
+}
+.btn-send:hover,
+.btn-send:focus {
+    background-color: #404bbf;
 }
 
+.modal-check-text {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: flex;
+align-items: center;
+margin-bottom: 24px;
+}
+
+.modal-check-text span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.modal-check {}
+
+.modal-check:checked + .modal-check-text span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
 
 
 
