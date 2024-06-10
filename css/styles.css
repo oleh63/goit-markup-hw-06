@@ -553,6 +553,7 @@ color: #404bbf
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-input-container {
@@ -567,7 +568,6 @@ color: #404bbf
         background-color: transparent;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         padding: 0 16px;
-        margin-right: 24px;
         color: #f4f4fd;
 }
 
