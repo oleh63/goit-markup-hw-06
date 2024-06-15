@@ -626,7 +626,6 @@ color: #404bbf
     padding: 96px 0;
     /* padding: 100px 0; */
     /* max-width: 1440px; */
-    width: 320px;
     margin: 0 auto;
 }
 
@@ -728,7 +727,7 @@ color: #404bbf
 }
 
 .footer-subs {
-    min-width: 453px;
+    /* min-width: 453px; */
 }
 
 .footer-subs-text {
@@ -744,6 +743,7 @@ color: #404bbf
 .footer-form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* gap: 24px; */
 }
 
@@ -766,6 +766,7 @@ color: #404bbf
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
+        
 }
 
 .footer-input::placeholder {
@@ -785,8 +786,8 @@ color: #404bbf
     height: 40px;
     background-color: #4d5ae5;
     border: none;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 8px 64px 8px 24px;
     font-weight: 500;
         font-size: 16px;
@@ -812,53 +813,56 @@ color: #404bbf
     margin-left: 16px;
 }
 
-@media screen and (min-width:768px) {
-    .footer-logo {
-        width: 768px;
-        height: auto;
-    }
-    .container-container {
+@media screen and (min-width: 768px) {
+    .container {
         width: 584px;
     }
-    .footer-class {
+    .container-container {
+        width: 496px;
         display: flex;
-        align-items: flex-start;
+        align-items: baseline;
         gap: 24px;
     }
+    .link-logo {
+        margin-left: 0;
+    }
+    .footer-social {
+        text-align: left;
+    }
+    .footer-wrap {
+        margin-bottom: 0;
+    }
     .footer-form {
-        display: flex;
+        justify-content: start;
+        margin-left: 0 ;
         flex-wrap: nowrap;
-        align-items: flex-start;
-        gap: 24px;
     }
     .footer-subs-text {
         text-align: left;
     }
+    .footer-email {
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
     .btn-footer {
-        margin: 0;
+
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .footer-logo {
-        padding: 100px 0;
-        width: 1158px;
+@media screen and (width: 1158px) {
+    .container {
+        display: flex;
     }
     .container-container {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
+        gap: unset;
     }
     .container-footer {
         margin-right: 120px;
+        margin-bottom: 0;
     }
     .footer-wrap {
         margin-right: 80px;
     }
-    .logo-text {
-        width: 264px;
-    }
-
 }
 
 
