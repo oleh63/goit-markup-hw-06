@@ -630,7 +630,7 @@ color: #404bbf
 
 .container-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
@@ -642,7 +642,6 @@ color: #404bbf
 
 .link-logo {
     display: inline-block;
-    
     margin-bottom: 16px;
 }
 
@@ -808,6 +807,47 @@ color: #404bbf
     top: 8px;
     right: 24px;
     margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .container-container {
+        max-width: 584px;
+        gap: 72px 24px;
+    }
+    .container-footer {
+        text-align: left;
+        margin: 0;
+    }
+    .footer-wrap {
+        margin: 0;
+    }
+    .footer-social {
+        text-align: left;
+    }
+    .footer-subs {
+        margin: 0;
+    }
+    .footer-form {
+        flex-direction: row;
+    }
+    .footer-subs-text {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container-container {
+        max-width: 1158px;
+        flex-wrap: nowrap;
+        gap: unset;
+    }
+    .container-footer {
+        margin-right: 120px;
+    }
+    .footer-wrap {
+        margin-right: 80px;
+    }
 }
 
 
