@@ -226,7 +226,8 @@ color: #404bbf
 
 
 .effective {
-    padding: 188px 0;
+    /* padding: 188px 0; */
+    padding: 72px 56px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -238,16 +239,21 @@ color: #404bbf
 
 .effective-title {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
+        /* font-size: 56px; */
+        font-size: 36px;
+        /* line-height: 1.07; */
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        margin-bottom: 48px;
+        /* margin-bottom: 48px; */
+        margin-bottom: 72px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 496px;
+        /* max-width: 496px; */
+        max-width: 216px;
 }
+
 
 .effective-btm {
     font-weight: 500;
@@ -270,6 +276,28 @@ color: #404bbf
 }
 .effective .effective-btm:focus {
     background-color: #404BBF;
+}
+
+@media screen and (min-width: 768px) {
+    .effective {
+        padding: 112px 136px;
+    }
+    .effective-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        min-width: 496px;
+        max-height: 120px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .effective {
+        padding: 188px 0;
+    }
+    .effective-title {
+        margin-bottom: 48px;
+    }
 }
 
 .page {
@@ -487,8 +515,10 @@ color: #404bbf
 
 @media screen and (min-width: 768px) {
     .team {
-        width: 584px;
         height: auto;
+    }
+    .container-person {
+        width: 584px;
     }
     .team-items {
         gap: 64px 24px;
@@ -501,9 +531,11 @@ color: #404bbf
 
 @media screen and (min-width: 1158px) {
     .team {
-        width: 1158px;
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+    .container-person {
+        width: 1158px;
     }
         .team-item {
             width: calc((100% - 3 * 24px) / 4)
@@ -632,6 +664,7 @@ color: #404bbf
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    justify-content: center;
 }
 
 .container-footer {
@@ -640,10 +673,6 @@ color: #404bbf
     margin-bottom: 72px;
 }
 
-.link-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
 
 .logo-span {
     font-weight: 700;
@@ -656,6 +685,8 @@ color: #404bbf
 }
 
 .link-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -817,7 +848,7 @@ color: #404bbf
     }
     .container-footer {
         text-align: left;
-        margin: 0;
+        margin-left: 0;
     }
     .footer-wrap {
         margin: 0;
@@ -826,7 +857,7 @@ color: #404bbf
         text-align: left;
     }
     .footer-subs {
-        margin: 0;
+        margin-left: 0;
     }
     .footer-form {
         flex-direction: row;
@@ -844,9 +875,13 @@ color: #404bbf
     }
     .container-footer {
         margin-right: 120px;
+        margin-bottom: 0;
     }
     .footer-wrap {
         margin-right: 80px;
+    }
+    .footer-subs {
+        margin: 0;
     }
 }
 
