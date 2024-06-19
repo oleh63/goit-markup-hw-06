@@ -1047,7 +1047,7 @@ color: #404bbf
     position: absolute;
     border-radius: 4px;
     width: 288px;
-    /* height: 100%; */
+    min-height: 623px;
         /* width: 408px;
         min-height: 584px; */
         background-color: #fcfcfc;
