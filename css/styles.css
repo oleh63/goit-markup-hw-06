@@ -797,7 +797,7 @@ color: #404bbf
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .container-footer {
@@ -977,11 +977,13 @@ color: #404bbf
     
     .container-container {
         max-width: 584px;
-        gap: 72px 24px;
     }
     .container-footer {
         text-align: left;
         margin-left: 0;
+    }
+    .container-footer {
+        margin-right: 24px;
     }
     .footer-wrap {
         margin: 0;
